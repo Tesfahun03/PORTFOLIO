@@ -1,0 +1,258 @@
+section{
+   
+    background-color: white;
+    
+}
+footer{
+    height: 500px;
+    background-color: rgb(46, 41, 41);
+    color: white;
+    text-align: center;
+}
+                               /* NAV BAR AND FIRST SECTION*/
+.first-page{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;   
+}
+.menu{
+    border:0;
+    background-color: transparent;
+    /* font-size: 30px; */
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1d25;
+}
+.logo{
+    color: aliceblue;
+}
+
+
+.ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 17px;
+    position: relative;
+    left: 500px;
+}
+.ul.show{
+    display: none;
+}
+
+.li {
+    display: flex;
+    padding: 10px 15px;
+    padding-bottom: 29px;
+    height: 0px;
+    border-right: coral outset 1px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    margin-right: 5px;   
+}
+a{
+    text-decoration: none;
+   
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+li:hover{
+    background-color: rgb(197, 11, 82);
+    color: #1c1d25;
+    border-radius: 25px;
+    animation: navbar-scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+ li:active{
+     background-color: coral;
+     color: aliceblue;
+ }
+@keyframes navbar-scale {
+    50%{transform: scale(1.2, 1.2);}
+    
+}
+                      /* about and FIRST-page SECTIOn*/
+
+#hello{
+
+    font-size: 50px;
+    text-align: center;
+    padding-left: 600px;
+    
+}
+h1{
+    
+    font-size: 40px;
+    margin: 0px;
+    font-style: italic;
+
+}
+h1::first-letter{
+    font-size: 80px;
+    font-style: italic;
+}
+p{
+    font-size: 28px;
+    margin: 0px;
+    margin-left:6px;
+}
+#hello{
+    animation: hello-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes hello-animation{
+    50%{transform: scale(1.2 , 1.2);}
+    70%{transform:scale(1.5,1.5);}
+}
+
+
+.button{
+    width: 90px;
+    height: 25px;
+    background-color: rgb(197, 11, 82);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 0px;
+    
+}
+.button:hover{
+    animation: button-scale;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes button-scale {
+    60%{transform: scale(1.2,1.2);}
+    
+}
+.about-area{
+    margin-left:40px;
+    margin-bottom: 100px;
+}
+.middle-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.socials{
+    margin-bottom:100px;
+    
+}
+@keyframes social-animation{
+    50%{transform: scale(1.28,1.28);}
+}
+
+.social{
+    margin: 25px;
+    
+}
+.social:hover{    
+    animation: social-animation;
+    animation-duration: 0.6s;
+    animation-iteration-count: 1;
+   
+}
+
+                                      /* SECOND SECTION*/
+.second-section{
+    display: flex;
+    height : 100vh;
+    justify-content:space-around;
+    background-color:#252844;
+    color: white;
+}
+.about-me-area{
+    padding: 80px;  
+    width: 600px;
+
+}
+.about-me{
+    text-align: center;
+    padding-left: 0px;
+}
+
+ .about-image-container{
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+    padding-bottom: 80px;
+     
+ }
+ .my-image{
+     border-radius: 152px;
+     width: 330px;
+     height: 300px; 
+ }
+
+                    /* third section*/
+.Third-section{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(100, 110, 118);
+    justify-content: center;
+    align-items: center;
+}
+
+.project-01{
+    height: 450px;
+    margin: 13px;
+    width: 300px;
+    background-color: #1c1d25;
+    box-shadow:7px 7px 30px;
+    padding: 20px;
+    align-items: center;
+}
+
+.project-01:hover{
+    
+    color: coral
+}
+
+.project-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    margin:  22px;
+    
+}
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    text-align: center; 
+}
+.pro-txt{
+    margin: 90px;
+}
+.h3{
+    text-align: center;
+    color: white;
+}
+.view{
+    color: coral;
+}
+.view:visited{
+    color: coral;
+}
+            /* footer*/
+#motivation{
+    font-size: 40px;
+    font-style: italic;
+}
