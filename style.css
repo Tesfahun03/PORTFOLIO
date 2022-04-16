@@ -15,11 +15,7 @@ footer{
     height: 100vh;
     color: white;   
 }
-.menu{
-    border:0;
-    background-color: transparent;
-    /* font-size: 30px; */
-}
+
 .navbar{
     position: sticky;
     top: 0px;
@@ -28,21 +24,19 @@ footer{
     background-color: #1c1d25;
 }
 .logo{
+    padding: 20px;
+    font-size: 26px;
     color: aliceblue;
 }
 
-
 .ul{
+    padding-top: 10px;
     display: flex;
     list-style-type: none;
     font-size: 17px;
     position: relative;
-    left: 500px;
+    right: 20px;
 }
-.ul.show{
-    display: none;
-}
-
 .li {
     display: flex;
     padding: 10px 15px;
@@ -66,7 +60,7 @@ a:visited{
 }
 li:hover{
     background-color: rgb(197, 11, 82);
-    color: #1c1d25;
+    color: white;
     border-radius: 25px;
     animation: navbar-scale;
     animation-duration: 3s;
@@ -75,7 +69,7 @@ li:hover{
 }
 
  li:active{
-     background-color: coral;
+     background-color: #1c1d25;
      color: aliceblue;
  }
 @keyframes navbar-scale {
@@ -152,8 +146,7 @@ p{
    
 }
 .socials{
-    margin-bottom:100px;
-    
+    margin-bottom:100px;    
 }
 @keyframes social-animation{
     50%{transform: scale(1.28,1.28);}
@@ -161,7 +154,7 @@ p{
 
 .social{
     margin: 25px;
-    
+    position: sticky;
 }
 .social:hover{    
     animation: social-animation;
@@ -203,11 +196,14 @@ p{
 
                     /* third section*/
 .Third-section{
+    background-color: rgb(100, 110, 118);
+}
+.project-page-area{
     display: flex;
     height: 100vh;
-    background-color: rgb(100, 110, 118);
     justify-content: center;
     align-items: center;
+    
 }
 
 .project-01{
@@ -217,6 +213,7 @@ p{
     background-color: #1c1d25;
     box-shadow:7px 7px 30px;
     padding: 20px;
+   
     align-items: center;
 }
 
@@ -241,6 +238,12 @@ p{
 .pro-txt{
     margin: 90px;
 }
+#projects{
+    text-align: center;
+    font-style: italic;
+    padding-top:40px;
+    color: aliceblue;
+}
 .h3{
     text-align: center;
     color: white;
@@ -252,6 +255,7 @@ p{
     color: coral;
 }
             /* footer*/
+
 #motivation{
     font-size: 40px;
     font-style: italic;
